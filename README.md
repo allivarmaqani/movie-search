@@ -1,75 +1,72 @@
-# Nuxt Minimal Starter
+Movie Search 🎬
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+Movie Search is a web application that allows users to search for movies by title and get detailed information including ratings, release date, and descriptions. It's a simple, user-friendly app built to demonstrate working with APIs, search functionality, and responsive UI.
 
-## Setup
+## 🔍 Project Description
 
-Make sure to install dependencies:
+This app fetches movie data from a public API (such as OMDb API or TMDb) and displays it in a clean and interactive user interface. It's ideal for users looking to quickly find information about movies, and it serves as a portfolio project to showcase skills in frontend development, API integration, and UI design.
 
-```bash
-# npm
+### Features:
+- 🔎 **Search Movies** by title in real-time
+- 🎞️ Display movie details: title, year, poster, plot, and ratings
+- 🧭 Responsive and mobile-friendly layout
+- ⚙️ Built with modern frontend tools (e.g., Vue.js / React / JavaScript)
+- 🔗 API integration (e.g., [OMDb API](http://www.omdbapi.com/))
+
+## 🧰 Technologies Used
+
+- **Framework**: Vue.js / React (depending on what you used)
+- **CSS**: TailwindCSS / Bootstrap / Custom CSS
+- **API**: OMDb API or other movie database
+- **Build Tools**: Vite / Webpack / Create React App (based on your stack)
+
+## 🚀 Getting Started
+
+To run this project locally, follow these steps:
+
+1. Clone the repository:
+
+   ```bash
+   git clone <REPOSITORY_URL>
+Navigate to the project folder:
+
+bash
+Copy
+Edit
+cd movie-search
+Install dependencies:
+
+bash
+Copy
+Edit
 npm install
+Start the development server:
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
+bash
+Copy
+Edit
 npm run dev
+Open your browser and go to:
 
-# pnpm
-pnpm dev
+arduino
+Copy
+Edit
+http://localhost:3000
+📁 Folder Structure (optional)
+css
+Copy
+Edit
+movie-search/
+├── public/
+├── src/
+│   ├── components/
+│   ├── views/
+│   ├── App.vue / App.jsx
+│   └── main.js / main.jsx
+├── .env
+├── package.json
+└── README.md
+📌 Notes
+You may need to register for a free API key from OMDb or your chosen movie API provider.
 
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Make sure to store your API key in a .env file for security and flexibility.
